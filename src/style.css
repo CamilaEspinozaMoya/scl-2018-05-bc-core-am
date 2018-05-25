@@ -6,22 +6,48 @@ h1{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    position: relative;
+    top: 30px;
 }
 
 .cajaIngreso{
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 300px;
     border: 2px solid black;
     margin: 5px;
     display: inline-block;
     background-color: white;
+    position: relative;
+    left: 350px;
+    top: 100px;
+    border: none;
+    resize: none;
 }
 
 .cajaTexto{
-    height: 200px;
-    width: 400px;
+    height: 150px;
+    width: 300px;
     border: 2px solid black;
     margin: 5px;
     display: inline-block;
     background-color: white;
+    position: relative;
+    left: 350px;
+    top: 100px;
+    background-color: silver;
+    border: none;
+}
+
+.boton{
+    position: relative;
+    left: 350px;
+    top: 20px;
+}
+
+.titulo{
+    position: relative;
+    left: 350px;
+    top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gainsboro;
 }

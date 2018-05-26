@@ -1,7 +1,12 @@
-var btnCS = document.getElementById('btnCS');
-var btnAbc = document.getElementById('btnAbc');
+let btnCC = document.getElementById('btnCC');
+let btnAbc = document.getElementById('btnAbc');
 
-btnCS.addEventListener('click', function(){
-    var ingresoCS = document.getElementById('ingresoCS').value; 
-    console.log(ingresoCS)
+btnCC.addEventListener('click', function(){
+    let ingresoCC = document.getElementById('ingresoCC').value; 
+    console.log(ingresoCC);
 });
+btnAbc.addEventListener('click', function(){
+    let ingresoACifrar = document.getElementById('ingresoACifrar').value;
+    console.log(ingresoACifrar);
+});
+

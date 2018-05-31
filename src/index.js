@@ -9,7 +9,7 @@ const textoACifrar = document.getElementById('textoACifrar');
 
 // codificado de texto
 btnCC.addEventListener('click', () => {
-    let ingresoCC = document.getElementById('ingresoCC').value; 
+    let ingresoCC = document.getElementById('ingresoCC').value.toUpperCase();
     console.log(ingresoCC);
     let desplazamiento = document.getElementById('desplazamiento').value;
     console.log(desplazamiento);
@@ -20,7 +20,7 @@ btnCC.addEventListener('click', () => {
 
 // decodificado de texto
 btnAbc.addEventListener('click', () => {
-    let ingresoACifrar = document.getElementById('ingresoACifrar').value;
+    let ingresoACifrar = document.getElementById('ingresoACifrar').value.toUpperCase();
     console.log(ingresoACifrar);
     let desplazamiento = document.getElementById('desplazamiento').value;
     console.log(desplazamiento);

@@ -2,7 +2,6 @@
     background-color: dimgray;
     
 }*/
-
 h1{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,7 +12,6 @@ h1{
 .cajaIngreso{
     height: 150px;
     width: 300px;
-    border: 2px solid black;
     margin: 5px;
     display: inline-block;
     background-color: white;
@@ -26,10 +24,8 @@ h1{
 .cajaTexto{
     height: 150px;
     width: 300px;
-    border: 2px solid black;
     margin: 5px;
     display: inline-block;
-    background-color: white;
     position: relative;
     left: 350px;
     top: 100px;

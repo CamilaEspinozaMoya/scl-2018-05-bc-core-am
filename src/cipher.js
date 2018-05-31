@@ -9,9 +9,14 @@ window.cipher = {
     }
     return result;
   },
-  
   decode: (desplazamiento,ingresoACifrar) => {
       /* Acá va tu código */
-
+  let result2 = "";
+  for (let e = 0; e< ingresoACifrar.length; e++) {
+    let posicion2 = ingresoACifrar.charCodeAt(e);
+    let ascii2 = ((posicion2 + 65 - desplazamiento) % 26 + 65);
+    result2 += String.fromCharCode(ascii2);
+  }
+    return result2;
   }
 }

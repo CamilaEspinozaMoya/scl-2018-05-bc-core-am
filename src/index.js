@@ -22,7 +22,10 @@ btnCC.addEventListener('click', () => {
 btnAbc.addEventListener('click', () => {
     let ingresoACifrar = document.getElementById('ingresoACifrar').value;
     console.log(ingresoACifrar);
-    textoACifrar.innerHTML = decode;
+    let desplazamiento = document.getElementById('desplazamiento').value;
+    console.log(desplazamiento);
+    let enlaceAb = window.cipher.decode (desplazamiento,ingresoACifrar);
+    textoACifrar.innerHTML = enlaceAb;
 });
 
 // borrado de texto codificado

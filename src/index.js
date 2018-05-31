@@ -10,9 +10,12 @@ const textoACifrar = document.getElementById('textoACifrar');
 // codificado de texto
 btnCC.addEventListener('click', () => {
     let ingresoCC = document.getElementById('ingresoCC').value; 
+    console.log(ingresoCC);
     let desplazamiento = document.getElementById('desplazamiento').value;
-    let enlace = window.cipher.encode (desplazamiento,ingresoCC);
-    textoCC.innerHTML = enlace;
+    console.log(desplazamiento);
+    let enlaceCC = window.cipher.encode (desplazamiento,ingresoCC);
+    console.log(enlaceCC);
+    textoCC.innerHTML = enlaceCC;
 })
 
 // decodificado de texto

@@ -7,12 +7,11 @@
 </head>
 <body>
 <header></header>
-<h1>Traductor cifrado Cesar</h1>
-
-<section>
+<h1>Traductor cifrado Cesar</h1> <section>
   <div class="titulo">Nº desplazamiento</div>
   <select id="desplazamiento" name="menu">
-    <option value="0">...</option>
+    <!-- ver la manera de reducir esto -->
+   <option value="0">...</option>
     <option value="1">1</option>
     <option value="2">2</option>
     <option value="3">3</option>
@@ -43,26 +42,20 @@
     <option value="28">28</option>
 
   </select>
-</section>
-
-<section>
+</section> <section>
   <div class='titulo'>Abecedario / Cifrado Cesar</div>
-  <textarea class='cajaIngreso' id="ingresoCC"></textarea>
+  <textarea class='cajaIngreso' id="ingresoCC" placeholder="Ingresa tu mensaje a cifrar acá"></textarea>
   <div class='cajaTexto' id="textoCC"></div>
   <button id='btnCC' class='btn'>Traducir</button>
   <button id='borrarCC' class='btn'type="reset">Borrar</button>
-</section>
-
-<section>
+</section><section>
   <div class='titulo'>Cifrado Cesar / Abecedario</div>
-  <textarea class='cajaIngreso'id="ingresoACifrar"></textarea>
+  <textarea class='cajaIngreso'id="ingresoACifrar" placeholder="Ingresa tu cifrado Cesar acá"></textarea>
   <div class='cajaTexto'id="textoACifrar"></div>
   <button id=btnAbc class='btn'>Traducir</button>
   <button id='borrarAb' class='btn' type="reset">Borrar</button>
 </section>
-  <div id="root"></div>
-
-  <script src="cipher.js"></script>
+  <div id="root"></div> <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
 </html>

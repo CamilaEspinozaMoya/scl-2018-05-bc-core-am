@@ -1,0 +1,56 @@
+/*html{
+    background-color: dimgray;
+    
+}*/
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+    top: 30px;
+}
+.cajaIngreso{
+    height: 150px;
+    width: 300px;
+    margin: 5px;
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    left: 350px;
+    top: 100px;
+    border: none;
+    resize: none;
+}
+.cajaTexto{
+    height: 150px;
+    width: 300px;
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+    left: 350px;
+    top: 100px;
+    background-color: silver;
+    border: none;
+}
+.btn{
+    position: relative;
+    left: 350px;
+    top: 20px;
+}
+.titulo{
+    position: relative;
+    left: 350px;
+    top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gainsboro;
+}
+#desplazamiento{
+    display: inline-block;
+    position: relative;
+    left: 350px;
+    top: 100px;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1467685790346-20bfe73a81f0?ixlib=rb-0.3.5&s=0ba9d0ad68e1d1eb0c4a66fe6a451e26&auto=format&fit=crop&w=749&q=80);
+    background-size: 100%;
+}

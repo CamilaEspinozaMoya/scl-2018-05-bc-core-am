@@ -6,7 +6,7 @@ Consiste en escribir el mensaje con un alfabeto que està formado por las letras
 Para esta aplicaciòn podemos desplazar las posiciones en el alfabeto de 1 a 100, asì puedes encriptar mensajes secretos junto a tus cercanos.
 
 Para descargar la aplicaciòn modo usuario debes seguir los siguientes pasos:
-ingresa al siguiente link:
+ingresa al siguiente link: https://camilaespinozamoya.github.io/scl-2018-05-bc-core-am/
 
 Para descargar la aplicaciòn modo programador debes seguir los siguientes pasos:
 

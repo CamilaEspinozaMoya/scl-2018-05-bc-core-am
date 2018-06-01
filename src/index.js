@@ -13,7 +13,7 @@ btnCC.addEventListener('click', () => {
     console.log(ingresoCC);
     let desplazamiento = document.getElementById('desplazamiento').value;
     console.log(desplazamiento);
-    let enlaceCC = window.cipher.encode (desplazamiento,ingresoCC);
+    let enlaceCC = window.cipher.encode (ingresoCC,desplazamiento);
     console.log(enlaceCC);
     textoCC.innerHTML = enlaceCC;
 })
@@ -24,7 +24,7 @@ btnAbc.addEventListener('click', () => {
     console.log(ingresoACifrar);
     let desplazamiento = document.getElementById('desplazamiento').value;
     console.log(desplazamiento);
-    let enlaceAb = window.cipher.decode (desplazamiento,ingresoACifrar);
+    let enlaceAb = window.cipher.decode (ingresoACifrar,desplazamiento);
     textoACifrar.innerHTML = enlaceAb;
 });
 
